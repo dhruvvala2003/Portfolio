@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Extra from './Extra';
 
 function App() {
   return (
@@ -7,8 +8,10 @@ function App() {
       <Navbar />
       <HeroSection />
       <AboutSection />
+      <Extra/>
       <ContactSection />
       <Footer />
+
     </div>
   );
 }
